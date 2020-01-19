@@ -1,5 +1,5 @@
 FROM python:2.7
-LABEL maintainer="Peng Xiao<xiaoquwl@gmail.com>"
+LABEL maintainer="Peng aaXiao<xiaoquwl@gmail.com>"
 RUN pip install flask
 COPY app.py /app/
 WORKDIR /app
